@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5137665001756643119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7299265147687065740}
+  - component: {fileID: 3103211946362937512}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7299265147687065740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5137665001756643119}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3103211946362937512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5137665001756643119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38b1058fc2e24b449509f5d42cdd4ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+    backGroundMusic: {fileID: 8300000, guid: dca57130b81634354ae43dbe529d95b4, type: 3}
+    buttonClicked: {fileID: 8300000, guid: 665186f1ab7f84480b424b09fb39c384, type: 3}
+    eatablePicked: {fileID: 8300000, guid: 665186f1ab7f84480b424b09fb39c384, type: 3}
+    eatableProcessing: {fileID: 8300000, guid: 665186f1ab7f84480b424b09fb39c384, type: 3}
+    eatableProcessed: {fileID: 8300000, guid: 665186f1ab7f84480b424b09fb39c384, type: 3}
+    eatableDelivered: {fileID: 8300000, guid: 665186f1ab7f84480b424b09fb39c384, type: 3}
+    eatableNotDeliverable: {fileID: 8300000, guid: 665186f1ab7f84480b424b09fb39c384,
+      type: 3}
+    eatableDrop: {fileID: 8300000, guid: 665186f1ab7f84480b424b09fb39c384, type: 3}
+    trashIn: {fileID: 8300000, guid: 665186f1ab7f84480b424b09fb39c384, type: 3}
+    orderComplete: {fileID: 8300000, guid: 665186f1ab7f84480b424b09fb39c384, type: 3}
+    gameOver: {fileID: 8300000, guid: 665186f1ab7f84480b424b09fb39c384, type: 3}

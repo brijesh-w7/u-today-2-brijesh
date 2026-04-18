@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bb58ddde7aae4a91938f42661edeeae, type: 3}
+  m_Name: Ingredient_SO
+  m_EditorClassIdentifier: Assembly-CSharp::IngredientSO
+  availableIngredients: 000000000100000002000000
+  items:
+  - type: 0
+    icon: {fileID: 21300000, guid: 10b1143ee0731403381e472961aa2a80, type: 3}
+    iconProcessed: {fileID: 0}
+    prefab: {fileID: 585498426417138616, guid: 693dedc87a85c4a078f1e30445a8d136, type: 3}
+  - type: 1
+    icon: {fileID: 21300000, guid: de609c8ef9ba84c9ab2b5ccd6c9113b2, type: 3}
+    iconProcessed: {fileID: 0}
+    prefab: {fileID: 6715156330578662580, guid: 424a3b6b674ff436da9435b477faea39,
+      type: 3}
+  - type: 2
+    icon: {fileID: 21300000, guid: f855767186d144fcbb98307623c26e70, type: 3}
+    iconProcessed: {fileID: 0}
+    prefab: {fileID: 358810830734502730, guid: 94322a5f9700047018c0aad731beca2b, type: 3}
